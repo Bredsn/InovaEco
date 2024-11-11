@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+   <html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <script src="./main.js"></script>
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css">
+
+
+      <!--=============== REMIXICONS ===============-->
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700;800;900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
+
+      <!--=============== CSS ===============-->
+      <link rel="stylesheet" href="./style.css">
+      <link rel="icon" href="../Favicon_inovaeco.PNG" type="image/x-icon">
+      
+      <title>Login Empresa Prestadora de Serviços</title>
+   </head>
+   <body>
+       
+    <div class="login_container">
+      <!--=============== LOGIN ===============-->
+      <div class="login container grid" id="loginAccessRegister">
+         <!--===== LOGIN ACCESS =====-->
+         <div class="login__access">
+            <h1 class="login__title">InovaEco</h1>
+            <h6 class="tipo_de_login">Login empresa prestadora de serviços</h6>
+
+            <div class="login__area">
+                <form action="" class="login__form">
+                    <div class="login__content grid">
+                        <div class="login__box"> <!-- abacaxi -->
+                            <input type="email" id="email" required placeholder=" " class="login__input">
+                            <label for="email" class="login__label">Email</label>
+
+                            <i class="ri-mail-fill login__icon"></i>
+                        </div>
+
+                        <div class="login__box"> <!-- abacaxi -->
+                            <input type="password" id="password" required placeholder=" " class="login__input">
+                            <label for="password" class="login__label">Password</label>
+
+                            <i class="ri-eye-close-fill login__icon login__password" id="loginPassword"></i>
+                        </div>
+                    </div>
+
+                    <a href="#" class="login__forgot">Forgot yout password?</a>
+
+                    <button type="submit" class="login__button">Login</button>
+                </form>
+
+                <div class="login__social">
+                    <p class="login__social-title">Or login with</p>
+
+                    <div class="login__social-links">
+                        <a href="#" class="login__social-link">
+                            <img src="./img/icon-google.svg" alt="image" class="login__social-img">
+                        </a>
+
+                        <a href="#" class="login__social-link">
+                            <img src="./img/icon-facebook.svg" alt="image" class="login__social-img">
+                        </a>
+
+                        <a href="#" class="login__social-link">
+                            <img src="./img/104490_apple_icon.svg" alt="image" class="login__social-img">
+                        </a>
+
+                    </div>
+
+                </div>
+                <p class="login__switch">
+                    Don't have an account?
+                    <button id="loginButtonRegister">Create account</button>
+                </p>
+                <p class="login__switch">
+                    If the account is for your company?
+                    <a href="../Login_empresa_investidora/home3.html" id="loginARegister">Empresa de Investimento</a>
+                    or
+                    <a href="../Login_projetista/home.html">Projetista</a>
+                </p>
+            </div>
+         </div>
+
+         <!--===== LOGIN REGISTER =====-->
+         <div class="login__register">
+            <h1 class="login__title">Create new account.</h1>
+
+            <div class="login__area">
+                <form action="" class="login__form">
+                    <div class="login__content grid">
+                        <div class="login__group grid">
+                            <div class="login__box"> <!-- abacaxi -->
+                                <input type="text" id="names" required placeholder=" " class="login__input">
+                                <label for="names" class="login__label">Names</label>
+
+                                <i class="ri-id-card-fill login__icon"></i>
+                            </div>
+
+                            <div class="login__box"> <!-- abacaxi -->
+                                <input type="text" id="surnames" required placeholder=" " class="login__input">
+                                <label for="surnames" class="login__label">Surnames</label>
+
+                                <i class="ri-id-card-fill login__icon"></i>
+                            </div>
+                        </div>
+
+                        <div class="login__box"> <!-- abacaxi -->
+                            <input type="email" id="emailCreate" required placeholder=" " class="login__input">
+                            <label for="emailCreate" class="login__label">Email</label>
+
+                            <i class="ri-mail-fill login__icon"></i>
+                        </div>
+
+                        <div class="login__box"> <!-- abacaxi -->
+                            <input type="password" id="passwordCreate" required placeholder=" " class="login__input">
+                            <label for="passwordCreate" class="login__label">Password</label>
+
+                            <i class="ri-eye-close-line login__icon login__password" id="loginPasswordCreate"></i>
+                        </div>
+                    </div>
+
+                    <button type="submit" class="login__button">Create account</button>
+                </form>
+
+                <p class="login__switch">
+                    Already have an account?
+                    <button id="loginButtonAccess">Log In</button>
+                </p>
+            </div>
+         </div>
+      </div>
+    </div>
+   </body>
+</html>
